@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*
+        将其他的数据类型转换成Boolean类型;
+        使用Boolean()函数来转换;
+        Number ---> Boolean：
+            除了0和NaN,其它都是true;
+        String ---> Boolean：
+            除了空串，其它都是true;
+        null和undefined：
+            转换返回false;
+        Object ---> Boolean:
+            转换返回true
+        */
+
+        var num = 12 // true
+        num = -12 // true
+        num = 0 //false
+        num = Infinity // true
+        num = NaN //false
+
+        // 使用Boolean()函数来将num转换成Boolean类型
+        Boolean(num)
+    </script>
+</body>
+</html>
